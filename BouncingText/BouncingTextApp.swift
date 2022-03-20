@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct BouncingTextApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct BouncingTextApp: App
+{
+    var body: some Scene
+    {
+        WindowGroup
+        {
+            Bounce()
         }
     }
 }
